@@ -82,38 +82,37 @@ export const projects =[
   {
     num: '01',
     category:'frontend',
-    title:'Prject 01',
-    description:"This is a responsive web developer portfolio designed to showcase my skills, experience, and education as an aspiring full-stack developer. The portfolio provides a comprehensive overview of my journey, from front-end to back-end development, highlighting my abilities through interactive elements, sleek design, and user-friendly navigation.",
+    title:'Static Blog',
+    description:"The Static Blog with Next.js project is a static blogging platform utilizing Next.js for server-side rendering and static site generation. It features Markdown support for blog posts, file-based routing, and built-in SEO optimizations. The project allows users to write blog posts in Markdown format, making it easy to manage content with metadata. It includes a clear structure with directories for components, styles, and public assets. The project is deployed in vercel.",
     stack: [
       { name: "JavaScript" },
-      { name: "React.js" },
+      { name: "Next.js" },
       { name: "Tailwind CSS" },
       { name: "Git" },
-      { name: "Figma" },
-      { name: "Framer Motion" },
-      { name: "Next.js" }
+      { name: "velite" }
     ],
     image:'/assets/work/work-1.png',
-    live:'/',
-    github:'/',
+    live:'https://staticblog-nextjs.vercel.app',
+    github:'https://github.com/kithmina1999/staticblog-nextjs.git',
   },
   {
     num: '02',
     category:'frontend',
-    title:'Prject 01',
-    description:"This is a responsive web developer portfolio designed to showcase my skills, experience, and education as an aspiring full-stack developer. The portfolio provides a comprehensive overview of my journey, from front-end to back-end development, highlighting my abilities through interactive elements, sleek design, and user-friendly navigation.",
+    title:'Saas landing page',
+    description:"The Light SaaS Landing Page project is a responsive landing page template created using Next.js, TypeScript, and Tailwind CSS. It is designed to showcase a software-as-a-service (SaaS) product, featuring sections for features, testimonials, and call-to-action elements. The project emphasizes clean design and user experience, making it suitable for developers looking to create a professional online presence for their SaaS offerings.",
     stack: [
+      { name: "Next.js" },
       { name: "JavaScript" },
-      { name: "React.js" },
+      { name: "Shadcn" },
       { name: "Tailwind CSS" },
       { name: "Git" },
       { name: "Figma" },
       { name: "Framer Motion" },
-      { name: "Next.js" }
+      
     ],
     image:'/assets/work/work-2.png',
-    live:'/',
-    github:'/',
+    live:'https://light-saas-landing-page-three.vercel.app',
+    github:'https://github.com/kithmina1999/light-saas-landing-page',
   },
   {
     num: '03',
