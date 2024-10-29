@@ -4,6 +4,7 @@ import { MdOutlineWeb } from "react-icons/md";
 import { SiNextdotjs } from "react-icons/si";
 import { FaServer } from "react-icons/fa";
 import { TbSeo } from "react-icons/tb";
+import { FaXTwitter } from "react-icons/fa6";
 
 export const NavLinks =[
     {
@@ -31,19 +32,19 @@ export const NavLinks =[
   export const Socialslink = [
     {
         "icon": <FaGithub />,
-        "path": "https://github.com/yourusername"
+        "path": "https://github.com/kithmina1999"
     },
     {
         "icon": <FaLinkedinIn />,
-        "path": "https://linkedin.com/in/yourusername"
+        "path": "https://www.linkedin.com/in/kithmina-gunasinghe-6231742ba/"
     },
     {
         "icon": <FaYoutube />,
-        "path": "https://youtube.com/c/yourchannel"
+        "path": "#"
     },
     {
-        "icon": <FaTwitter />,
-        "path": "https://twitter.com/yourusername"
+        "icon": <FaXTwitter />,
+        "path": "https://x.com/KithGunasinghe"
     }
 ]
 
