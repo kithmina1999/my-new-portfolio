@@ -22,7 +22,7 @@ const AuroraEffect = ({ children }) => {
     return (
         <motion.div 
         style={{backgroundImage,}}
-        className='absolute bottom-0 w-full'>
+        className=' bottom-0 w-full'>
             <PageTransition>
               {children}  
             </PageTransition>

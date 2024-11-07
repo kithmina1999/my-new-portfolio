@@ -7,9 +7,8 @@ import { motion } from 'framer-motion'
 
 const Header = () => {
     return (
-        <header
-        >
-      
+        <header >
+
             <div className='container p-6 xl:p-8 flex justify-between items-center'>
                 <Link href='/' className='text-4xl font-semibold'>Kith<span className='text-accent'> .</span></Link>
                 <Nav />
