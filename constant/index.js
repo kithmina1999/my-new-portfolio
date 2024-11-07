@@ -118,8 +118,8 @@ export const projects =[
   {
     num: '03',
     category:'frontend',
-    title:'Prject 01',
-    description:"This is a responsive web developer portfolio designed to showcase my skills, experience, and education as an aspiring full-stack developer. The portfolio provides a comprehensive overview of my journey, from front-end to back-end development, highlighting my abilities through interactive elements, sleek design, and user-friendly navigation.",
+    title:'Lanka Voyage',
+    description:"This is fullstack blog application created using nextjs for frontend and firebase and nextjs server actions for backend and database.",
     stack: [
       { name: "JavaScript" },
       { name: "React.js" },
@@ -131,7 +131,25 @@ export const projects =[
     ],
     image:'/assets/work/work-3.png',
     live:'/',
-    github:'/',
+    github:'https://github.com/kithmina1999/lanka-voyage',
+  },
+  {
+    num: '03',
+    category:'frontend',
+    title:'PDF-ecommerce',
+    description:"This is a responsive pdf ecommerce website created using nextjs and stripe",
+    stack: [
+      { name: "JavaScript" },
+      { name: "React.js" },
+      { name: "Tailwind CSS" },
+      { name: "Git" },
+      { name: "Figma" },
+      { name: "stripe" },
+      { name: "Next.js" }
+    ],
+    image:'/assets/work/work-4.png',
+    live:'/',
+    github:'https://github.com/kithmina1999/pdf-ecommerce',
   }
 ]
 
@@ -139,7 +157,7 @@ export const ContactInfo = [
   {
     icon:<FaPhoneAlt />,
     title:'Phone',
-    description: '(+94) 717 576 278',
+    description: '(+94) 717 675 278',
   },
   {
     icon:<FaEnvelope />,
